@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: 'Poppins' , sans-serif; */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family= Poppins: wght @100 & display=swap');
+
+
+.header {
+    position: relative;
+    background-image: url(../imagens/backgroud2-terno.jpg);
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.886);
+}
+
+.logo h1 {
+    margin-left: 10px;
+    font-weight: 100;
+    color: rgb(241, 241, 241);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.lista {
+    display: flex;
+    margin-right: 20%;
+}
+
+.lista li {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+.lista a {
+    color: rgb(241, 241, 241);
+}
+
+.lista a:hover {
+    transition: 0.5s;
+    color: rgb(185, 109, 10);
+}
+
+.texto-back {
+    position: absolute;
+    top: 200px;
+    /* background-color:rgba(250, 235, 215, 0.272) ; */
+    width: 500px;
+    margin-left: 2%;
+
+}
+
+.texto-back h2 {
+    color: rgb(8, 8, 8);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.texto-back h3 {
+    color: rgb(8, 8, 8);
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.texto-back span {
+    font-weight: 900;
+    color: rgb(181, 107, 11);
+}
+
+.texto-back input {
+    cursor: pointer;
+    padding: 15px 50px;
+    background-color: rgb(166, 97, 7);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+
+.texto-back input:hover {
+    transition: 0.9s;
+    background-color: rgba(223, 121, 5, 0.993);
+}
+
+.seção-destaques {
+    background-color: rgb(239, 237, 236);
+}
+
+.seção2 {
+    font-family: 'Poppins' sans-serif;
+    text-align: center;
+    width: 100%;
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.informações img{
+    width: 350px;
+}
+
+.informações h3{
+    color:black;
+}
+
+.img2 img {
+    width: 350px;
+}
+
+.img3 img {
+    width: 350px;
+}
+
+
+.img-hover img:hover {
+    transition: 0.7s;
+    width: 380px;
+    border: 2px solid rgb(224, 139, 12);
+}
+
+.center-destaque {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+.informações h3 {
+    font-size: 25px;
+}
+
+.informações h4 {
+    font-size: 20px;
+    color: rgb(68, 69, 70);
+    margin-top: 5px;
+}
+
+.informações h3 {
+    background-color: rgb(215, 211, 204);
+
+}
+
+
+.informações h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(166, 97, 7);
+    width: 150px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.informações h2:hover {
+    transition: 0.9s;
+    background-color: rgba(198, 107, 2, 0.993);
+}
+
+.promoção {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to left,#70532C, #B87011 );
+}
+
+
+.center2 img {
+    margin-left: 50%;
+    width: 600px;
+    position: relative;
+    top: 4px;
+}
+
+.texto{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.texto h1{
+    letter-spacing: 3px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.texto h3{
+    letter-spacing: 3px;
+    color: rgb(230, 188, 18);
+    font-size: 20px;
+}
+
+
+.texto h2{
+   background-color: rgb(53, 2, 2);
+   color: aliceblue;
+   width: 150px;
+   margin-top: 10px;
+   text-align: center;
+   border-radius: 4px;
+}
+
+.texto h2:hover{
+    transition: 0.7s;
+    background-color: rgba(90, 3, 3, 0.774);
+}
+
+
+
+/* menu responsivo */
+
